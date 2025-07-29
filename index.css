@@ -1,32 +1,17 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  line-height: 1.6;
+  background: #f7f9fc;
   color: #333;
 }
 
 header {
-  background: #1a1a1a;
+  background: #2c3e50;
   color: #fff;
+  padding: 2rem;
   text-align: center;
-  padding: 2rem 1rem;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-header p {
-  margin-top: 0.5rem;
-  font-size: 1.2rem;
-}
-
-.contact a {
-  color: #61dafb;
-  text-decoration: none;
-  margin: 0 0.5rem;
 }
 
 section {
@@ -35,40 +20,44 @@ section {
   margin: auto;
 }
 
-h2 {
-  color: #222;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
+#about {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-ul {
-  list-style-type: disc;
-  padding-left: 1.5rem;
+#about img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#skills ul {
+  list-style: disc;
+  padding-left: 20px;
 }
 
 .project {
   background: #fff;
-  border: 1px solid #ddd;
   padding: 1rem;
   margin-bottom: 1rem;
-  border-radius: 8px;
+  border-left: 4px solid #3498db;
 }
 
-.project h3 {
-  margin: 0;
+a {
+  color: #3498db;
+  text-decoration: none;
 }
 
-.project span {
-  display: block;
-  margin-top: 0.5rem;
-  color: #666;
-  font-size: 0.9rem;
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
+  background: #2c3e50;
+  color: white;
   text-align: center;
   padding: 1rem;
-  background: #eee;
-  color: #555;
 }
